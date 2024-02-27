@@ -1,0 +1,82 @@
+/* Estilos mejorados para las tarjetas */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.container-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.container-info {
+    margin-bottom: 10px;
+}
+
+.status {
+    font-weight: bold;
+}
+
+
+.card-text-container {
+    color: #3498db;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.card-text-container strong {
+    color: rgb(106, 111, 186);
+}
+
+.container-card-container {
+    margin-bottom: 20px;
+}
+
+
+.card-body {
+    position: relative;
+}
+
+.start-button {
+    position: absolute;
+    bottom: 0;
+}
+
+.stop-button {
+    position: absolute;
+    bottom: 0;
+}
