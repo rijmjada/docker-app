@@ -1,0 +1,85 @@
+.bg-body-index {
+    background: linear-gradient(-45deg, #17c893ef, #ed429795, rgb(66, 77, 239));
+    background-size: 400% 400%;
+    animation: gradient 8s ease-in-out infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.card {
+    position: relative;
+    width: 350px;
+    padding: 20px;
+    margin: 6px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px wheat;
+
+}
+
+.bucket-card {
+    color: rgb(4, 4, 4);
+    backdrop-filter: blur(50px) saturate(150%);
+    background-color: rgba(245, 222, 179, 0.424);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ec2-card {
+    color: rgb(4, 4, 4);
+    backdrop-filter: blur(50px) saturate(150%);
+    background-color: rgba(245, 222, 179, 0.424);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-in {
+    border-radius: 5px;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.img-in:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.info p {
+    margin: 5px 0;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+
+.text-outline {
+    color: transparent;
+    text-shadow:
+        -1px -1px 0 #fcfbfbc1,
+        1px -1px 0 #00000053,
+        -1px 1px 0 #00000053,
+        1px 1px 0 #00000053;
+}
